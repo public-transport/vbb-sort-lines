@@ -1,0 +1,24 @@
+{
+	"name":         "vbb-sort-lines",
+	"description":  "Sort VBB lines by their importance.",
+	"version":      "0.1.0",
+	"main":         "./index.js",
+	"files":        ["index.js"],
+	"keywords":     ["vbb", "public transport", "lines", "sort"],
+	"author":       "Jannis R <mail@jannisr.de>",
+	"homepage":     "https://github.com/derhuerst/vbb-sort-lines",
+	"repository":   "derhuerst/vbb-sort-lines",
+	"bugs":         "https://github.com/derhuerst/vbb-sort-lines/issues",
+	"license":      "ISC",
+	"engines":      {"node": ">=6"},
+	"dependencies": {
+	},
+	"devDependencies": {
+		"tape": "^4.6.3",
+		"tap-min": "^1.2.1"
+	},
+	"scripts": {
+		"test": "node test.js | tap-min",
+		"prepublish": "npm test"
+	}
+}
