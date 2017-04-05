@@ -6,9 +6,9 @@
 	"files":        ["index.js"],
 	"keywords":     ["vbb", "public transport", "lines", "sort"],
 	"author":       "Jannis R <mail@jannisr.de>",
-	"homepage":     "https://github.com/derhuerst/vbb-sort-lines",
-	"repository":   "derhuerst/vbb-sort-lines",
-	"bugs":         "https://github.com/derhuerst/vbb-sort-lines/issues",
+	"homepage":     "https://github.com/public-transport/vbb-sort-lines",
+	"repository":   "public-transport/vbb-sort-lines",
+	"bugs":         "https://github.com/public-transport/vbb-sort-lines/issues",
 	"license":      "ISC",
 	"engines":      {"node": ">=6"},
 	"dependencies": {

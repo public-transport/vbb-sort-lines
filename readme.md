@@ -3,9 +3,9 @@
 **Sort VBB lines by their importance.** Implements a heuristic to sort lines based on their mode of transport and number.
 
 [![npm version](https://img.shields.io/npm/v/vbb-sort-lines.svg)](https://www.npmjs.com/package/vbb-sort-lines)
-[![build status](https://img.shields.io/travis/derhuerst/vbb-sort-lines.svg)](https://travis-ci.org/derhuerst/vbb-sort-lines)
-![ISC-licensed](https://img.shields.io/github/license/derhuerst/vbb-sort-lines.svg)
-[![chat on gitter](https://badges.gitter.im/derhuerst.svg)](https://gitter.im/derhuerst)
+[![build status](https://img.shields.io/travis/public-transport/vbb-sort-lines.svg)](https://travis-ci.org/public-transport/vbb-sort-lines)
+![ISC-licensed](https://img.shields.io/github/license/public-transport/vbb-sort-lines.svg)
+[![chat on gitter](https://badges.gitter.im/public-transport.svg)](https://gitter.im/public-transport)
 
 
 ## Installing
@@ -34,4 +34,4 @@ sort([
 
 ## Contributing
 
-If you **have a question**, **found a bug** or want to **propose a feature**, have a look at [the issues page](https://github.com/derhuerst/vbb-sort-lines/issues).
+If you **have a question**, **found a bug** or want to **propose a feature**, have a look at [the issues page](https://github.com/public-transport/vbb-sort-lines/issues).
