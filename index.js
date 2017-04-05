@@ -1,3 +1,7 @@
 'use strict'
 
-// todo
+const sort = (lines) => {
+	return lines
+}
+
+module.exports = sort
