@@ -38,3 +38,21 @@ test('sorts by name', (t) => {
 		{type: 'line', id: '5', name: '300', mode: 'bus'}
 	])
 })
+
+test('kitchen sink', (t) => {
+	t.plan(1)
+
+	t.deepEqual(sort([
+		{type: 'line', id: '1', name: '11', mode: 'train'},
+		{type: 'line', id: '5', name: '300', mode: 'bus'},
+		{type: 'line', id: '2', name: '100', mode: 'train'},
+		{type: 'line', id: '4', name: 'M45', mode: 'bus'},
+		{type: 'line', id: '3', name: '10', mode: 'ferry'}
+	]), [
+		{type: 'line', id: '1', name: '11', mode: 'train'},
+		{type: 'line', id: '2', name: '100', mode: 'train'},
+		{type: 'line', id: '3', name: '10', mode: 'ferry'},
+		{type: 'line', id: '4', name: 'M45', mode: 'bus'},
+		{type: 'line', id: '5', name: '300', mode: 'bus'}
+	])
+})
