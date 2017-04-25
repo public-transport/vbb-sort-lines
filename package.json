@@ -12,6 +12,7 @@
 	"license":      "ISC",
 	"engines":      {"node": ">=6"},
 	"dependencies": {
+		"vbb-parse-line": "^todo"
 	},
 	"devDependencies": {
 		"tape": "^4.6.3",
