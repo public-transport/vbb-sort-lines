@@ -25,22 +25,6 @@ test('sorts by name', (t) => {
 	t.plan(1)
 
 	t.deepEqual(sort([
-		{type: 'line', id: '3', name: '245', mode: 'bus'},
-		{type: 'line', id: '2', name: 'M45', mode: 'bus'},
-		{type: 'line', id: '4', name: '300', mode: 'bus'},
-		{type: 'line', id: '1', name: 'M5', mode: 'bus'}
-	]), [
-		{type: 'line', id: '1', name: 'M5', mode: 'bus'},
-		{type: 'line', id: '2', name: 'M45', mode: 'bus'},
-		{type: 'line', id: '3', name: '245', mode: 'bus'},
-		{type: 'line', id: '4', name: '300', mode: 'bus'}
-	])
-})
-
-test('sorts by name', (t) => {
-	t.plan(1)
-
-	t.deepEqual(sort([
 		{type: 'line', id: '4', name: '245', mode: 'bus'},
 		{type: 'line', id: '2', name: 'M45', mode: 'bus'},
 		{type: 'line', id: '5', name: '300', mode: 'bus'},
