@@ -1,5 +1,7 @@
 # vbb-sort-lines
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/public-transport/vbb-sort-lines.svg)](https://greenkeeper.io/)
+
 **Sort VBB lines by their importance.** Implements a heuristic to sort lines based on their mode of transport and number.
 
 [![npm version](https://img.shields.io/npm/v/vbb-sort-lines.svg)](https://www.npmjs.com/package/vbb-sort-lines)
