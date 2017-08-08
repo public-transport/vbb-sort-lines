@@ -22,9 +22,4 @@ var compare = function (a, b) {
 	return d
 }
 
-var sort = function (lines) {
-	return lines.sort(compare)
-}
-
-sort.compare = compare
-module.exports = sort
+module.exports = compare
